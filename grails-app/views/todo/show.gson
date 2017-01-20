@@ -1,0 +1,7 @@
+import hayek.Todo
+
+model {
+	Todo todo
+}
+
+json tmpl.todo(todo)

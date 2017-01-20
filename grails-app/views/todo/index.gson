@@ -1,0 +1,8 @@
+import hayek.Todo
+
+model {
+	Iterable<Todo> todoList
+}
+
+json tmpl.todo(todoList ?: [])
+
